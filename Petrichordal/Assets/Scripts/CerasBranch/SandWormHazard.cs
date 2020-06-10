@@ -7,6 +7,9 @@ public class SandWormHazard : MonoBehaviour
     private long initial_entry_frames=0;
     private long counter;
     private int swapnegative = -1;
+
+    
+
     // Start is called before the first frame update
     void Start()
     {

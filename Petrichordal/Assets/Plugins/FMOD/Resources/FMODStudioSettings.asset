@@ -77,7 +77,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Game
+  - game
   - lv01
   - lv02
   - lv03

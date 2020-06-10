@@ -15793,6 +15793,7 @@ MonoBehaviour:
   projectiles_per_burst: 0
   shottype: 0
   projectiledirection: 0
+  lazarglow: {fileID: 0}
 --- !u!114 &225448981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17172,7 +17173,6 @@ GameObject:
   - component: {fileID: 309315149}
   - component: {fileID: 309315152}
   - component: {fileID: 309315153}
-  - component: {fileID: 309315155}
   - component: {fileID: 309315150}
   m_Layer: 0
   m_Name: Player
@@ -17418,18 +17418,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1500
---- !u!114 &309315155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309315146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d197ad906143f4f8ba49b05e9d222a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &311896896 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4905614433774543880, guid: d15094ef1f05c484fa45c44f961343f4,
@@ -19452,6 +19440,7 @@ MonoBehaviour:
   projectiles_per_burst: 0
   shottype: 0
   projectiledirection: 0
+  lazarglow: {fileID: 0}
 --- !u!114 &463279780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20379,6 +20368,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -20399,6 +20389,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListenerNumber: -1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 2
+  Banks:
+  - lv02
+  CollisionTag: 
+  PreloadSamples: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -30465,6 +30473,7 @@ MonoBehaviour:
   projectiles_per_burst: 0
   shottype: 0
   projectiledirection: 0
+  lazarglow: {fileID: 0}
 --- !u!60 &992866162
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -32225,6 +32234,7 @@ MonoBehaviour:
   projectiles_per_burst: 0
   shottype: 0
   projectiledirection: 0
+  lazarglow: {fileID: 0}
 --- !u!111 &1094909778
 Animation:
   m_ObjectHideFlags: 0
@@ -33564,6 +33574,7 @@ MonoBehaviour:
   projectiles_per_burst: 0
   shottype: 0
   projectiledirection: 0
+  lazarglow: {fileID: 0}
 --- !u!111 &1161920718
 Animation:
   m_ObjectHideFlags: 0
@@ -36555,6 +36566,7 @@ MonoBehaviour:
   projectiles_per_burst: 0
   shottype: 0
   projectiledirection: 0
+  lazarglow: {fileID: 0}
 --- !u!114 &1329090801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40540,6 +40552,7 @@ MonoBehaviour:
   projectiles_per_burst: 0
   shottype: 0
   projectiledirection: 0
+  lazarglow: {fileID: 0}
 --- !u!111 &1587529419
 Animation:
   m_ObjectHideFlags: 0
@@ -43247,6 +43260,7 @@ MonoBehaviour:
   projectiles_per_burst: 0
   shottype: 0
   projectiledirection: 0
+  lazarglow: {fileID: 0}
 --- !u!114 &1805712524
 MonoBehaviour:
   m_ObjectHideFlags: 0

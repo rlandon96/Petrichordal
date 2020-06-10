@@ -93,7 +93,7 @@ public class DestroyByContact : MonoBehaviour
         {
             this.GetComponent<Health>().health -= other.GetComponent<Damage>().damage;
             this.GetComponent<Animation>().Play();
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Game/enemydamaged");
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Game/enemydeath");
             Destroy(other.gameObject);
             if (this.GetComponent<Health>().health <= 0)
             {
